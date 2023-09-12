@@ -75,6 +75,7 @@ export const Chats = () => {
         projectID={ import.meta.env.VITE_REACT_APP_CHAT_ENGINE_ID}
         userName={user.email}
         userSecret={user.uid}
+        
 
       />
     </div>
