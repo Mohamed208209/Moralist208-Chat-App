@@ -75,7 +75,7 @@ export const Chats = () => {
         projectID={"f48a9187-ba74-470d-ac86-a0131dd7f2c1"}
         userName={user.email}
         userSecret={user.uid}
-        onNewMessage={() =>{new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play(); setLoading(prevLoading => !prevLoading);}}
+      
       />
     </div>
   );
