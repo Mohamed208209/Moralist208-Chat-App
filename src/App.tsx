@@ -12,8 +12,8 @@ function App() {
      <AuthProvider>
 
       <Routes>
-      <Route path="/chats" Component={Chats} />
-        <Route path="/" Component={Login} />
+      <Route path="/chats" element={<Chats/>} />
+        <Route path="/" element={<Login/>} />
       </Routes>
 
       </AuthProvider>
