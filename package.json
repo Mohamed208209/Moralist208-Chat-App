@@ -2,7 +2,6 @@
   "name": "chat-app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,7 +11,6 @@
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "axios": "^1.5.0",
-    "browserify": "^17.0.0",
     "firebase": "^10.3.1",
     "react": "^18.2.0",
     "react-chat-engine": "^1.11.28",
@@ -21,12 +19,15 @@
     "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
     "@types/firebase": "^3.2.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
+    "esbuild": "^0.19.2",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
